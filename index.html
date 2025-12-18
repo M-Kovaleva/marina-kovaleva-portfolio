@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Marina Kovaleva</title>
+  <link href="favicon_io/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="favicon_io/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+  <link href="favicon_io/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <title>Marina Kovaleva</title>
-
   <script src="index.js" defer></script>
 </head>
 <body>
@@ -20,7 +22,7 @@
                 <ul>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#documents">Documents</a></li>
+                    <li><a href="#contact">Documents</a></li>
                 </ul>
             </nav>
             <!-- Hamburger Button -->
@@ -34,15 +36,18 @@
         <ul>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#documents">Documents</a></li>
+        <li><a href="#contact">Documents</a></li>
         </ul>
     </nav>
   </header>
   <main>
     <section class="description">
+      <div class="profile-image-container">
+        <img src="assets/2.png" alt="Profile photograph">
+      </div>
       <div class="description-container">
         <div class="description-header">
-          <h2>Frontend Developer</h2>
+          <h1>Frontend Developer</h1>
         </div>
         <p>
             Hello! My name is Marina Kovaleva and I welcome you to my personal portfolio. 
@@ -50,7 +55,7 @@
         </p>
         <div class="button-container">
           <a href="#contact">
-            <button class="black-button">
+            <button class="black-button no-wrap-text">
               <img src="assets/envelope-white.svg" alt="Envelope Icon">
               <span>Contact Me</span>
             </button>
@@ -63,16 +68,13 @@
           </a>
         </div>
       </div>
-      <div class="profile-image-container">
-        <img src="assets/3.png" alt="Profile photograph">
-      </div>
     </section>
 
     <section id="projects">
       <div class="projects-header">
-        <h2>Featured Projects</h2>
+        <h1>Featured Projects</h1>
         <p>
-          A selection of my recent work showcasing my skills in frontend development, UI/UX<br />design, and
+          A selection of my recent work showcasing my skills in frontend development, UI/UX design, and
           problem-solving.
         </p>
       </div>
@@ -80,15 +82,16 @@
       <div class="project-cards">
          <!-- First project card -->
         <div class="project-card">
-          <img src="assets/Untitled design (29).png" alt="Rainy days project screenshot">
+          <img src="assets/first-project.png" alt="Rainy days project screenshot">
           <div class="project-card-header">
-            <h3>Rainy Days</h3>
+            <h2>Rainy Days</h2>
           </div>
-          <p>Rainy Days is my first project as a front end developer, developed primarily on HTML and CSS. I have built a website where customers can shop rain jackets.
+          <p>Rainy Days is my first project, developed primarily on HTML and CSS. I created a website where customers can shop rain jackets.
           </p>
           <div class="tags">
             <span>HTML</span>
             <span>CSS</span>
+            <span>Javascript</span>
           </div>
           <div class="button-container">
             <a href="https://github.com/M-Kovaleva/html-css-marina-kovaleva">
@@ -99,7 +102,7 @@
             </a>
             <a href="https://m-kovaleva.github.io/html-css-marina-kovaleva/">
               <button class="black-button no-wrap-text">
-                <img src="assets/link-black.svg" alt="Link icon">
+                <img src="assets/link-white.svg" alt="Link icon">
                 <span>Live Link</span>
               </button>
             </a>
@@ -107,11 +110,11 @@
         </div>
        <!-- Second project card -->
         <div class="project-card">
-          <img src="assets/Untitled design (28).png" alt="Community science project screenshot">
+          <img src="assets/second-project.png" alt="Community science project screenshot">
           <div class="project-card-header">
-            <h3>Community Science Museum</h3>
+            <h2>Newton</h2>
           </div>
-          <p>This is my second project as a front end developer, where I created a website for the Community Science Museum.
+          <p>Newton is my second project as a front end developer, where I created a website for the local Community Science Museum using only HTML and CSS.
           </p>
           <div class="tags">
             <span>HTML</span>
@@ -126,7 +129,7 @@
             </a>
             <a href="https://m-kovaleva.github.io/sp1_marina_kovaleva/">
               <button class="black-button no-wrap-text">
-                <img src="assets/link-black.svg" alt="Link icon">
+                <img src="assets/link-white.svg" alt="Link icon">
                 <span>Live Link</span>
               </button>
             </a>
@@ -134,11 +137,11 @@
         </div>
        <!-- Third project card -->
         <div class="project-card">
-          <img src="assets/rayny-days-shop-js.png" alt="Rainy days project screenshot">
+          <img src="assets/third-project.png" alt="Modo project screenshot">
           <div class="project-card-header">
-            <h3>Rainy Days</h3>
+            <h2>Modo</h2>
           </div>
-          <p>Rainy Days JS description.
+          <p>Modo is my year project exam; Building a clean, modern e-commerce website using what I have learned in HTML, CSS and JavaScript so far.
           </p>
           <div class="tags">
             <span>HTML</span>
@@ -146,15 +149,15 @@
             <span>Javascript</span>
           </div>
           <div class="button-container">
-            <a href="https://github.com/M-Kovaleva/js1-marina-kovaleva">
+            <a href="https://github.com/M-Kovaleva/marina-kovaleva-PE1-JAN25FT">
               <button class="white-button no-wrap-text">
                 <img src="assets/github-black.svg" alt="GitHub logo">
                 <span>Repository Link</span>
               </button>
             </a>
-            <a href="https://m-kovaleva.github.io/js1-marina-kovaleva/">
+            <a href="https://m-kovaleva.github.io/marina-kovaleva-PE1-JAN25FT/">
               <button class="black-button no-wrap-text">
-                <img src="assets/link-black.svg" alt="Link icon">
+                <img src="assets/link-white.svg" alt="Link icon">
                 <span>Live Link</span>
               </button>
             </a>
@@ -162,61 +165,97 @@
         </div>
       </div>
     </section>
-  </main>
-
-  <footer id="contact">
-    <div class="footer-header">
-      <h2>Get In Touch</h2>
-      <p>Interested in working together? Feel free to contact me for any project or collaboration opportunities.</p>
+    <section id="contact" class="contact-section">
+  <!-- LEFT -->
+  <div class="contact-left">
+    <div class="contact-header">
+      <h1>Get In Touch</h1>
+      <p>
+        Interested in working together? Feel free to contact me for any project
+        or collaboration opportunities.
+      </p>
     </div>
-    <div class="footer-content">
-      <div class="contact-info">
-        <h3>Contact Information</h3>
-        <div class="contact-items">
-          <div class="contact-item">
-            <div class="contact-icon">
-              <img src="assets/envelope-black.svg" alt="Email icon">
-            </div>
-            <div class="contact-details">
-              <span class="contact-label">Email</span>
-              <a href="mailto:ekrem@gmail.com" class="contact-value">owlet.savvina@gmail.com</a>
-            </div>
+
+    <div class="button-container">
+      <a href="assets/Marina-Kovaleva-CV.pdf">
+        <button
+          class="download-button no-wrap-text"
+          download="Marina-Kovaleva-CV.pdf"
+          aria-label="Download CV"
+        >
+          <img src="assets/free-icon-dowload-7289205.png" alt="Download icon">
+          <span>Resume</span>
+        </button>
+      </a>
+
+      <a href="assets/Cover Letter-Marina Kovaleva-QA Specialist - Intern.docx">
+        <button
+          class="download-button no-wrap-text"
+          download="Cover Letter-Marina Kovaleva-QA Specialist - Intern.docx"
+          aria-label="Download cover letter"
+        >
+          <img src="assets/free-icon-dowload-7289205.png" alt="Download icon">
+          <span>Cover letter</span>
+        </button>
+      </a>
+    </div>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="contact-content">
+    <div class="contact-info">
+      <h2>Contact Information</h2>
+
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <img src="assets/envelope-black.svg" alt="Email icon">
           </div>
-          <div class="contact-item">
-            <div class="contact-icon">
-              <img src="assets/linkedin.svg" alt="LinkedIn icon">
-            </div>
-            <div class="contact-details">
-              <span class="contact-label">LinkedIn</span>
-              <a href="https://www.linkedin.com/in/marina-kovaleva-a6504519b" target="_blank"
-                class="contact-value">linkedin.com/in/marina-kovaleva</a>
-            </div>
+          <div class="contact-details">
+            <span class="contact-label">Email</span>
+            <a href="mailto:owlet.savvina@gmail.com" class="contact-value">
+              owlet.savvina@gmail.com
+            </a>
           </div>
-          <div class="contact-item">
-            <div class="contact-icon">
-              <img src="assets/github-black.svg" alt="GitHub icon">
-            </div>
-            <div class="contact-details">
-              <span class="contact-label">GitHub</span>
-              <a href="https://github.com/M-Kovaleva" target="_blank" class="contact-value">github.com/M-Kovaleva</a>
-            </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <img src="assets/linkedin.svg" alt="LinkedIn icon">
+          </div>
+          <div class="contact-details">
+            <span class="contact-label">LinkedIn</span>
+            <a
+              href="https://www.linkedin.com/in/marina-kovaleva-a6504519b"
+              target="_blank"
+              class="contact-value">
+              linkedin.com/in/marina-kovaleva
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <img src="assets/github-black.svg" alt="GitHub icon">
+          </div>
+          <div class="contact-details">
+            <span class="contact-label">GitHub</span>
+            <a
+              href="https://github.com/M-Kovaleva"
+              target="_blank"
+              class="contact-value">
+              github.com/M-Kovaleva
+            </a>
           </div>
         </div>
       </div>
-      <section id="documents">
-        <h2>Documents</h2>
-        <div class="button-container">
-            
-        <a href="assets/Marina-Kovaleva-CV.pdf" class="download-link" download="Marina-Kovaleva-CV.pdf" aria-label="Download CV"><button class="white-button no-wrap-text">Resume</button></a>
-        <a href="assets/Cover Letter-Marina Kovaleva-QA Specialist - Intern.docx" class="download-link" download="Cover Letter-Marina Kovaleva-QA Specialist - Intern.docx" aria-label="Download cover letter"><button class="white-button no-wrap-text">Cover letter</button></a>
-
-      </div>
-      </section>
-      
     </div>
-    <small>&copy; 2025 Marina Kovaleva.</small>
-  </footer>
-  <
+  </div>
+</section>
+  </main>
+
+  
+    <footer>&copy; 2025 Marina Kovaleva.</footer>
 </body>
 
 </html>
