@@ -15,32 +15,33 @@
 </head>
 <body>
   <header>
-        <div class="header-container">
-            <h1 class="logo">Marina Kovaleva</h1>
-            <!-- Desktop Navigation -->
-            <nav class="nav-desktop">
-                <ul>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#contact">Documents</a></li>
-                </ul>
-            </nav>
-            <!-- Hamburger Button -->
-            <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
-            <span></span><span></span><span></span>
-            </button>
-        </div>
-        <!-- Mobile Menu -->
-    <nav class="mobile-menu" id="mobileMenu">
-        <button class="close-menu" id="closeMenuBtn" aria-label="Close menu">&times;</button>
+    <div class="header-container">
+      <h1 class="logo">Marina Kovaleva</h1>
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop">
         <ul>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#contact">Documents</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Documents</a></li>
+        </ul>
+      </nav>
+      <!-- Hamburger Button -->
+      <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+      <button class="close-menu" id="closeMenuBtn" aria-label="Close menu">&times;</button>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Documents</a></li>
         </ul>
     </nav>
   </header>
   <main>
+    <!-- Profile photo and description -->
     <section class="description">
       <div class="profile-image-container">
         <img src="assets/2.png" alt="Profile photograph">
@@ -50,8 +51,8 @@
           <h1>Frontend Developer</h1>
         </div>
         <p>
-            Hello! My name is Marina Kovaleva and I welcome you to my personal portfolio. 
-            I am a student and young software developer from Norway with an international focus.
+            Hello! My name is Marina, and welcome to my personal portfolio. I am a student 
+            and a young software developer from Norway with an international focus.
         </p>
         <div class="button-container">
           <a href="#contact">
@@ -69,24 +70,24 @@
         </div>
       </div>
     </section>
-
     <section id="projects">
       <div class="projects-header">
         <h1>Featured Projects</h1>
         <p>
-          A selection of my recent work showcasing my skills in frontend development, UI/UX design, and
-          problem-solving.
+          A selection of my recent work showcasing my skills in frontend development, 
+          UI/UX design, and problem-solving.
         </p>
       </div>
-
       <div class="project-cards">
-         <!-- First project card -->
+        <!-- First project card -->
         <div class="project-card">
           <img src="assets/first-project.png" alt="Rainy days project screenshot">
           <div class="project-card-header">
             <h2>Rainy Days</h2>
           </div>
-          <p>Rainy Days is my first project, developed primarily on HTML and CSS. I created a website where customers can shop rain jackets.
+          <p>
+            Rainy Days is my first project, developed primarily on HTML and CSS. 
+            I created a website where customers can shop rain jackets.
           </p>
           <div class="tags">
             <span>HTML</span>
@@ -114,7 +115,9 @@
           <div class="project-card-header">
             <h2>Newton</h2>
           </div>
-          <p>Newton is my second project as a front end developer, where I created a website for the local Community Science Museum using only HTML and CSS.
+          <p>
+            Newton is my second project as a front end developer, where I created 
+            a website for the local Community Science Museum using only HTML and CSS.
           </p>
           <div class="tags">
             <span>HTML</span>
@@ -141,7 +144,9 @@
           <div class="project-card-header">
             <h2>Modo</h2>
           </div>
-          <p>Modo is my year project exam; Building a clean, modern e-commerce website using what I have learned in HTML, CSS and JavaScript so far.
+          <p>
+            Modo is my year-end project exam: building a clean, modern e-commerce website 
+            using what I have learned in HTML, CSS, and JavaScript so far.
           </p>
           <div class="tags">
             <span>HTML</span>
@@ -166,96 +171,99 @@
       </div>
     </section>
     <section id="contact" class="contact-section">
-  <!-- LEFT -->
-  <div class="contact-left">
-    <div class="contact-header">
-      <h1>Get In Touch</h1>
-      <p>
-        Interested in working together? Feel free to contact me for any project
-        or collaboration opportunities.
-      </p>
-    </div>
-
-    <div class="button-container">
-      <a href="assets/Marina-Kovaleva-CV.pdf">
-        <button
-          class="download-button no-wrap-text"
-          download="Marina-Kovaleva-CV.pdf"
-          aria-label="Download CV"
-        >
-          <img src="assets/free-icon-dowload-7289205.png" alt="Download icon">
-          <span>Resume</span>
-        </button>
-      </a>
-
-      <a href="assets/Cover Letter-Marina Kovaleva-QA Specialist - Intern.docx">
-        <button
-          class="download-button no-wrap-text"
-          download="Cover Letter-Marina Kovaleva-QA Specialist - Intern.docx"
-          aria-label="Download cover letter"
-        >
-          <img src="assets/free-icon-dowload-7289205.png" alt="Download icon">
-          <span>Cover letter</span>
-        </button>
-      </a>
-    </div>
-  </div>
-
-  <!-- RIGHT -->
-  <div class="contact-content">
-    <div class="contact-info">
-      <h2>Contact Information</h2>
-
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="contact-icon">
-            <img src="assets/envelope-black.svg" alt="Email icon">
-          </div>
-          <div class="contact-details">
-            <span class="contact-label">Email</span>
-            <a href="mailto:owlet.savvina@gmail.com" class="contact-value">
-              owlet.savvina@gmail.com
-            </a>
-          </div>
+      <!-- Contacts - LEFT part -->
+      <div class="contact-left">
+        <div class="contact-header">
+          <h1>Get In Touch</h1>
+          <p>
+            Interested in working together? Feel free to contact me for any project
+            or collaboration opportunities.
+          </p>
         </div>
-
-        <div class="contact-item">
-          <div class="contact-icon">
-            <img src="assets/linkedin.svg" alt="LinkedIn icon">
-          </div>
-          <div class="contact-details">
-            <span class="contact-label">LinkedIn</span>
-            <a
-              href="https://www.linkedin.com/in/marina-kovaleva-a6504519b"
-              target="_blank"
-              class="contact-value">
-              linkedin.com/in/marina-kovaleva
-            </a>
-          </div>
+        <div class="button-container">
+          <a href="assets/Marina-Kovaleva-CV.pdf"
+            download="Marina-Kovaleva-CV.pdf"
+            aria-label="Download CV">
+            <button
+              class="download-button no-wrap-text">
+              <img src="assets/free-icon-dowload-7289205.png" alt="Download icon">
+              <span>Resume</span>
+            </button>
+          </a>
+          <a href="assets/Cover Letter-Marina Kovaleva-QA Specialist - Intern.docx"
+            download="Cover Letter-Marina Kovaleva-QA Specialist - Intern.docx"
+            aria-label="Download cover letter">
+            <button
+              class="download-button no-wrap-text">
+              <img src="assets/free-icon-dowload-7289205.png" alt="Download icon">
+              <span>Cover letter</span>
+            </button>
+          </a>
         </div>
-
-        <div class="contact-item">
-          <div class="contact-icon">
-            <img src="assets/github-black.svg" alt="GitHub icon">
-          </div>
-          <div class="contact-details">
-            <span class="contact-label">GitHub</span>
-            <a
-              href="https://github.com/M-Kovaleva"
-              target="_blank"
-              class="contact-value">
-              github.com/M-Kovaleva
-            </a>
+      </div>
+      <!-- Contacts - RIGHT part -->
+      <div class="contact-content">
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <img src="assets/envelope-black.svg" alt="Email icon">
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Email</span>
+                <a href="mailto:owlet.savvina@gmail.com" class="contact-value">
+                  owlet.savvina@gmail.com
+                </a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <img src="assets/linkedin.svg" alt="LinkedIn icon">
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">LinkedIn</span>
+                <a
+                  href="https://www.linkedin.com/in/marina-kovaleva-a6504519b"
+                  target="_blank"
+                  class="contact-value">
+                  linkedin.com/in/marina-kovaleva
+                </a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <img src="assets/github-black.svg" alt="GitHub icon">
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">GitHub</span>
+                <a
+                  href="https://github.com/M-Kovaleva"
+                  target="_blank"
+                  class="contact-value">
+                  github.com/M-Kovaleva
+                </a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <img src="assets/free-icon-behance-3536860.png" alt="Behance icon">
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Behance</span>
+                <a
+                  href="https://www.behance.net/owlet-savvina"
+                  target="_blank"
+                  class="contact-value">
+                  behance.net/owlet-savvina
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
   </main>
-
-  
-    <footer>&copy; 2025 Marina Kovaleva.</footer>
+  <footer>&copy; 2025 Marina Kovaleva</footer>
 </body>
-
 </html>
